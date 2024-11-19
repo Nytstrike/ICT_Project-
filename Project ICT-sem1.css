@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #302b63, #24243e);
+    overflow-x: hidden;
+}
+.cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+.cont .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+.cont .logo a{
+    text-decoration: none;
+    color: #ff4d4d;
+}
+.cont .logo a:hover{
+    color: #ffffff;
+}
+.cont ul {
+    display: flex;
+    list-style: none;
+}
+
+.cont ul li {
+    margin-left: 1.5rem;
+}
+
+.cont ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cont ul li a:hover {
+    color: #ff4d4d;
+}
+.team-name h1 {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.team-name h1:hover{
+    color: #ff4d4d;
+    transform: scale(1.05);
+}
+.center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%; 
+}
+
+.card {
+    background: none;
+    padding: 15px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-img{
+    display: flex;
+    justify-content:center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.landing-page, .conversion-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-content h1, .conversion-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.landing-content p, .conversion-content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #cccccc;
+    max-width: 500px;
+}
+.landing-content p{
+    justify-self: center;
+}
+.more{
+    color: #ff4d4d;
+    text-decoration: none;
+}
+.more:hover{
+    color: #ffffff;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #6A0DAD, #4169E1);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+.conversion-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.conversion-selectors {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.conversion-selectors select {
+    margin: 0 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+input[type="text"] {
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.output-box {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #ff4d4d;
+}
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.shape-1 {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #FF00FF, #F2A7D4);
+    top: 10%;
+    left: 10%;
+}
+
+.shape-2 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #9B4D96, #F0F0FF);
+    bottom: 25%;
+    right: 16%;
+}
+
+.shape-3 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #6A0DAD, #00FFFF);
+    top: 60%;
+    left: 60%;
+}
+
+.shape-4 {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #B57EDC, #00FFFF);
+    bottom: 25%;
+    left: 25%;
+}
+
+.shape-5 {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #8A2BE2, #F060FF);
+    top: 47%;
+    right: 3%;
+}
+
+.shape-6 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #FF00FF, #00FFFF);
+    bottom: 50%;
+    right: 10%;
+}
+
+.shape-7 {
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(135deg, #8A2BE2, #FF66F0);
+    top: 5%;
+    right: 5%;
+}
+
+.shape-8 {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(135deg, #00FFFF, #FF00FF);
+    bottom: 20%;
+    left: 2%;
+}
+
+.shape-9 {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(135deg, #4B0082, #00FFFF);
+    bottom: 10%;
+    right: 1%;
+}
+
+.shape-10 {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(135deg, #00FFFF, #FFFFFF);
+    bottom: 5%;
+    right: 50%;
+}
+.info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+}
+.more-info {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #302b63, #24243e);
+    color: #d3d3d3;
+}
+.info {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #2b2b2b;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.info h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.article {
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.article h2 {
+    color: #bbbbbb;
+}
+.article p {
+    color: #cccccc;
+}
+.article h2:hover{
+    color: #FFFFFF;
+}
